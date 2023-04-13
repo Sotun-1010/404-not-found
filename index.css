@@ -1,0 +1,137 @@
+/* Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500;600;700;800;900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+  /* font-family: 'Inconsolata', monospace;
+font-family: 'Space Mono', monospace; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+    padding: 20px 24px;
+}
+
+header h3 {
+    font-family: 'Inconsolata', monospace;
+}
+
+main {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 118.78px;
+    margin-bottom: 60px;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img {
+    width: 539.22px;
+    height: 447.43px;
+    margin-left: 53px;
+}
+
+.main-text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.main-text h1 {
+    width: 586px;
+    height: 188px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 95px;
+    letter-spacing: -3.5%;
+    margin-bottom: 36px;
+}
+
+.main-text p {
+    width: 381px;
+    height: 108px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -3.5%;
+    margin-bottom: 63px;
+}
+
+.main-text button {
+    width: 216px;
+    padding: 24px 43px 23px;
+    color: #fff;
+    background: #333;
+    font-size: 11px;
+    line-height: 20.73px;
+    letter-spacing: 3.5%;
+    font-weight: 700;
+    border: none;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1205px) {
+    .image img {
+        width: 286.83px;
+        height: 238px;
+        margin-left: 53px;
+    }    
+
+
+
+    .main-text h1 {
+        width: 350px;
+        height: 142px;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 71.09px;
+        letter-spacing: -3.5%;
+    }
+    
+    .main-text p {
+        width: 328px;
+        height: 81px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 26.66px;
+        letter-spacing: -3.5%;
+        margin-bottom: 66px;
+        margin-top: 66px;
+    }
+    
+    .main-text button {
+        width: 216px;
+        padding: 24px 43px 23px;
+        color: #fff;
+        background: #333;
+        font-size: 11px;
+        line-height: 20.73px;
+        letter-spacing: 3.5%;
+        font-weight: 700;
+        border: none;
+    }
+    
+}
+
+@media screen and (max-width: 724px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+    }
+}

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+html {
+    height: 95%;
+}
+
+body {
+    height: 100%;
+    background-color: #FFFFFF;
+    font-family: 'Space Mono', monospace;
+    position: relative;
+    margin: 0em 4em 0em 4em;
+}
+
+h3 {
+    font-family: 'Inconsolata', monospace;
+    color: #333333;
+    font-size: 24px;
+}
+
+h1 {
+    font: bold;
+    color: #333333;
+    font-size: 48px;
+}
+
+p {
+    font-size: 18px;
+    max-width: 400px;
+    color: #4F4F4F;
+}
+
+main {
+    display: flex;
+    padding-top: 3em;
+}
+
+div {
+    width: 50%;
+    padding: 0em 3em 0em 3em;
+}
+
+img {
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+
+button {
+    margin-top: 3em;
+    width: 216px;
+    height: 68px;
+    background-color: #333333;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 14px;
+    border: none;
+}
+
+footer {
+    margin-top: 3em;
+    text-align: center;
+}
+
+span {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #BDBDBD;
+}
+
+@media screen and (min-width: 1600px) {
+    body {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 64px;
+    }
+
+    p {
+        font-size: 24px;
+    }
+
+    main {
+        margin-top: 5em;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0%;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 685px) {
+    body {
+        margin: 0em 1em 0em 1em;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+    
+    p {
+        font-size: 18px;
+    }
+
+    main {
+        display: block;
+    }
+
+    div {
+        width: 100%;
+        padding: 0 0 0 0;
+    }
+
+    img {
+        width: 80%;
+    }
+}
