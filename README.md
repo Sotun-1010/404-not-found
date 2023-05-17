@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{404-not-found-by-sotun.netlify.app/}">
+    <a href="https://404-not-found-by-sotun.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{github.com/Sotun-1010/404-not-found}">
+    <a href="https://github.com/Sotun-1010/404-not-found">
       Solution
     </a>
     <span> | </span>
