@@ -12,7 +12,7 @@ font-family: 'Space Mono', monospace; */
 
 body {
     font-family: 'Space Mono', monospace;
-    padding: 20px 24px;
+    padding: 20px 24px 5px;
 }
 
 header h3 {
@@ -32,12 +32,14 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 539.22px;
+    max-height: 447.43px;
+
 }
 
 .image img {
-    width: 539.22px;
-    height: 447.43px;
-    margin-left: 53px;
+    width: 100%;
+    object-fit: fill;
 }
 
 .main-text{
@@ -47,7 +49,7 @@ main {
 }
 
 .main-text h1 {
-    width: 586px;
+    max-width: 586px;
     height: 188px;
     font-size: 64px;
     font-weight: 700;
@@ -57,7 +59,7 @@ main {
 }
 
 .main-text p {
-    width: 381px;
+    max-width: 381px;
     height: 108px;
     font-size: 24px;
     font-weight: 400;
@@ -86,14 +88,6 @@ footer {
 }
 
 @media screen and (max-width: 1205px) {
-    .image img {
-        width: 286.83px;
-        height: 238px;
-        margin-left: 53px;
-    }    
-
-
-
     .main-text h1 {
         width: 350px;
         height: 142px;
@@ -104,7 +98,7 @@ footer {
     }
     
     .main-text p {
-        width: 328px;
+        max-width: 328px;
         height: 81px;
         font-size: 18px;
         font-weight: 400;
@@ -115,7 +109,7 @@ footer {
     }
     
     .main-text button {
-        width: 216px;
+        max-width: 216px;
         padding: 24px 43px 23px;
         color: #fff;
         background: #333;
@@ -134,5 +128,9 @@ footer {
         flex-direction: column;
         align-items: start;
         justify-content: start;
+    }
+
+    footer {
+        font-size: 10px;
     }
 }
